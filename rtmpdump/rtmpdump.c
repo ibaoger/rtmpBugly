@@ -52,6 +52,10 @@
 #define DEF_BUFTIME	(10 * 60 * 60 * 1000)	/* 10 hours default */
 #define DEF_SKIPFRM	0
 
+#if (defined __APPLE__) && (defined __MACH__)
+#define RTMPDUMP_VERSION "v2.4"
+#endif
+
 // starts sockets
 int
 InitSockets()
@@ -67,7 +71,7 @@ InitSockets()
 #endif
 }
 
-inline void
+/*inline*/ void
 CleanupSockets()
 {
 #ifdef WIN32

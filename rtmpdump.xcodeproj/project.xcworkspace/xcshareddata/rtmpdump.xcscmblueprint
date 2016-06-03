@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "364BA319D998C7B62CFBC08B89583E5DA7D55CB1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57754D5C1368FFD2107C69C910A269F0187F39BE" : 0,
+    "364BA319D998C7B62CFBC08B89583E5DA7D55CB1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "64F7313C-F9E1-4348-A9C9-8CD98D4B8A8D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57754D5C1368FFD2107C69C910A269F0187F39BE" : "",
+    "364BA319D998C7B62CFBC08B89583E5DA7D55CB1" : "rtmpBugly\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "rtmpdump",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "rtmpdump.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:shishuo365\/rtmpBugly.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "364BA319D998C7B62CFBC08B89583E5DA7D55CB1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.oschina.net:dreamcom\/rtmpStudio.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57754D5C1368FFD2107C69C910A269F0187F39BE"
+    }
+  ]
+}
