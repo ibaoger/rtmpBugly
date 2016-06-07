@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008C316E1D05C824000F2E87 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C316C1D05C824000F2E87 /* libcrypto.a */; };
+		008C316F1D05C824000F2E87 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C316D1D05C824000F2E87 /* libssl.a */; };
+		008C31721D0654E6000F2E87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C31701D05C86D000F2E87 /* libz.tbd */; };
 		009A3FF91D0039DA00E18517 /* rtmpdump.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A3FF81D0039DA00E18517 /* rtmpdump.c */; };
-		009A3FFE1D00827100E18517 /* libssl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A3FFD1D00827100E18517 /* libssl.tbd */; };
 		009A40271D008EC100E18517 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A40191D008EC100E18517 /* amf.c */; };
 		009A40281D008EC100E18517 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A401F1D008EC100E18517 /* hashswf.c */; };
 		009A40291D008EC100E18517 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A40211D008EC100E18517 /* log.c */; };
 		009A402A1D008EC100E18517 /* parseurl.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A40231D008EC100E18517 /* parseurl.c */; };
 		009A402B1D008EC100E18517 /* rtmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A40251D008EC100E18517 /* rtmp.c */; };
-		009A402D1D010F5B00E18517 /* libcrypto.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A402C1D010F5B00E18517 /* libcrypto.tbd */; };
-		009A402F1D019F9000E18517 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A402E1D019F8F00E18517 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,10 +31,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		008C316C1D05C824000F2E87 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = libstatic/libcrypto.a; sourceTree = "<group>"; };
+		008C316D1D05C824000F2E87 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = libstatic/libssl.a; sourceTree = "<group>"; };
+		008C31701D05C86D000F2E87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		009A3FEE1D00388F00E18517 /* rtmpdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtmpdump; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A3FF81D0039DA00E18517 /* rtmpdump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmpdump.c; sourceTree = "<group>"; };
-		009A3FFB1D00825800E18517 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
-		009A3FFD1D00827100E18517 /* libssl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libssl.tbd; path = usr/lib/libssl.tbd; sourceTree = SDKROOT; };
 		009A40191D008EC100E18517 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amf.c; path = librtmp/amf.c; sourceTree = "<group>"; };
 		009A401A1D008EC100E18517 /* amf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = amf.h; path = librtmp/amf.h; sourceTree = "<group>"; };
 		009A401B1D008EC100E18517 /* bytes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bytes.h; path = librtmp/bytes.h; sourceTree = "<group>"; };
@@ -49,8 +50,6 @@
 		009A40241D008EC100E18517 /* rtmp_sys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtmp_sys.h; path = librtmp/rtmp_sys.h; sourceTree = "<group>"; };
 		009A40251D008EC100E18517 /* rtmp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rtmp.c; path = librtmp/rtmp.c; sourceTree = "<group>"; };
 		009A40261D008EC100E18517 /* rtmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rtmp.h; path = librtmp/rtmp.h; sourceTree = "<group>"; };
-		009A402C1D010F5B00E18517 /* libcrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcrypto.tbd; path = usr/lib/libcrypto.tbd; sourceTree = SDKROOT; };
-		009A402E1D019F8F00E18517 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +57,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				009A402F1D019F9000E18517 /* libz.tbd in Frameworks */,
-				009A402D1D010F5B00E18517 /* libcrypto.tbd in Frameworks */,
-				009A3FFE1D00827100E18517 /* libssl.tbd in Frameworks */,
+				008C31721D0654E6000F2E87 /* libz.tbd in Frameworks */,
+				008C316E1D05C824000F2E87 /* libcrypto.a in Frameworks */,
+				008C316F1D05C824000F2E87 /* libssl.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,10 +69,9 @@
 		009A3FE51D00388F00E18517 = {
 			isa = PBXGroup;
 			children = (
-				009A402E1D019F8F00E18517 /* libz.tbd */,
-				009A402C1D010F5B00E18517 /* libcrypto.tbd */,
-				009A3FFD1D00827100E18517 /* libssl.tbd */,
-				009A3FFB1D00825800E18517 /* libstdc++.tbd */,
+				008C31701D05C86D000F2E87 /* libz.tbd */,
+				008C316C1D05C824000F2E87 /* libcrypto.a */,
+				008C316D1D05C824000F2E87 /* libssl.a */,
 				009A3FF01D00388F00E18517 /* rtmpdump */,
 				009A3FEF1D00388F00E18517 /* Products */,
 			);
@@ -270,6 +268,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libstatic",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "i386 x86_64";
@@ -280,6 +282,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libstatic",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "i386 x86_64";
 			};
