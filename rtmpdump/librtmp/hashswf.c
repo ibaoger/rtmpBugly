@@ -66,7 +66,7 @@
 extern void RTMP_TLS_Init();
 extern TLS_CTX RTMP_TLS_ctx;
 
-#include <zlib.h>
+#include "../../include/zlib/zlib.h"
 
 #endif /* CRYPTO */
 

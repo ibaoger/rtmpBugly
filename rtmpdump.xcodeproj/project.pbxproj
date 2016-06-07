@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		008C316E1D05C824000F2E87 /* libcrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C316C1D05C824000F2E87 /* libcrypto.a */; };
 		008C316F1D05C824000F2E87 /* libssl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C316D1D05C824000F2E87 /* libssl.a */; };
-		008C31721D0654E6000F2E87 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C31701D05C86D000F2E87 /* libz.tbd */; };
+		008C31741D0659DC000F2E87 /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 008C31731D0659DC000F2E87 /* libz.a */; };
 		009A3FF91D0039DA00E18517 /* rtmpdump.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A3FF81D0039DA00E18517 /* rtmpdump.c */; };
 		009A40271D008EC100E18517 /* amf.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A40191D008EC100E18517 /* amf.c */; };
 		009A40281D008EC100E18517 /* hashswf.c in Sources */ = {isa = PBXBuildFile; fileRef = 009A401F1D008EC100E18517 /* hashswf.c */; };
@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		008C316C1D05C824000F2E87 /* libcrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcrypto.a; path = libstatic/libcrypto.a; sourceTree = "<group>"; };
 		008C316D1D05C824000F2E87 /* libssl.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libssl.a; path = libstatic/libssl.a; sourceTree = "<group>"; };
-		008C31701D05C86D000F2E87 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		008C31731D0659DC000F2E87 /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = libstatic/libz.a; sourceTree = "<group>"; };
 		009A3FEE1D00388F00E18517 /* rtmpdump */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rtmpdump; sourceTree = BUILT_PRODUCTS_DIR; };
 		009A3FF81D0039DA00E18517 /* rtmpdump.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rtmpdump.c; sourceTree = "<group>"; };
 		009A40191D008EC100E18517 /* amf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = amf.c; path = librtmp/amf.c; sourceTree = "<group>"; };
@@ -57,7 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008C31721D0654E6000F2E87 /* libz.tbd in Frameworks */,
+				008C31741D0659DC000F2E87 /* libz.a in Frameworks */,
 				008C316E1D05C824000F2E87 /* libcrypto.a in Frameworks */,
 				008C316F1D05C824000F2E87 /* libssl.a in Frameworks */,
 			);
@@ -69,7 +69,7 @@
 		009A3FE51D00388F00E18517 = {
 			isa = PBXGroup;
 			children = (
-				008C31701D05C86D000F2E87 /* libz.tbd */,
+				008C31731D0659DC000F2E87 /* libz.a */,
 				008C316C1D05C824000F2E87 /* libcrypto.a */,
 				008C316D1D05C824000F2E87 /* libssl.a */,
 				009A3FF01D00388F00E18517 /* rtmpdump */,
